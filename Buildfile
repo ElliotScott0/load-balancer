@@ -1,4 +1,4 @@
-docker rm -r load-balancer
+docker rm -f load-balancer
 
 # Build the Docker image
 docker build -t load-balancer .
